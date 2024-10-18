@@ -1,5 +1,6 @@
 // A simple search bar for the blog page
-// NOTE: search is limite to posts' titles
+// NOTE: search is limited to posts' titles
+// Source: https://github.com/Froodooo/bear-plugins/blob/616e488f5435bf53b1193495967a678e10e594c0/bear/blog-search.js
 
 if (
   document.querySelector(".blog-posts") &&
