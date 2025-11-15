@@ -1,0 +1,37 @@
+/* ============================================================
+   🌲 Bearly palette: Into the woods
+   ------------------------------------------------------------
+   A deep, moody palette with soft forest tones.
+   Fonts: system-ui (headings) + system-ui (body)
+   More lovely palettes: robertbirming.com/bearly/palettes/
+   ============================================================ */
+
+@layer colors {
+  :root {
+    --width: 640px;
+    --font-main: system-ui, sans-serif;
+    --font-secondary: system-ui, sans-serif;
+    --font-scale: 1.0625rem;
+    --background-color: #fafbfa;
+    --heading-color: #2a2e2c;
+    --text-color: #3a3f3d;
+    --link-color: #2a8573;
+    --visited-color: #6a9085;
+    --blockquote-color: #6f7b76;
+    --code-background-color: #f4f5f3;
+    --code-color: #2d2f2e;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #1b1f1d;
+      --heading-color: #f2f2f0;
+      --text-color: #e6e6e3;
+      --link-color: #8fc7b3;
+      --visited-color: #658a7e;
+      --blockquote-color: #7b857f;
+      --code-background-color: #141716;
+      --code-color: #e6e6e3;
+    }
+  }
+}
