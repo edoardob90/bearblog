@@ -9,8 +9,8 @@ This repo contains all the files related to my blog(s) on [Bearblog.dev](https:/
   - `src/html/` - HTML snippets (e.g., head includes)
   - `src/main.js` - (Optional) Main JS entry point for bundling
 - `dist/` - Built and minified assets
-  - `dist/bundle.css` - Minified and bundled CSS
-  - `dist/bundle.js` - Minified and bundled JavaScript (only if main.js exists)
+  - `dist/style.min.css` - Minified and bundled CSS
+  - `dist/script.min.js` - Minified and bundled JavaScript (only if main.js exists)
   - `dist/html/` - HTML snippets (copied from src)
 
 ## Development
