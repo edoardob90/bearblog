@@ -1,0 +1,11 @@
+// To enable JavaScript bundling:
+// 1. Rename this file from main.js.example to main.js
+// 2. Import your CSS and any JS files you want to bundle
+// 3. Run npm run build
+
+// Example:
+// import './css/style.css';
+// import './js/search.js';
+// import './js/lang_filter.js';
+
+// This will create both dist/bundle.css and dist/bundle.js

@@ -1,0 +1,22 @@
+{
+  "name": "bearblog",
+  "version": "1.0.0",
+  "description": "Bear Blog assets with automated minification and bundling",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "terser": "^5.36.0",
+    "vite": "^5.0.0",
+    "vite-plugin-static-copy": "^1.0.0"
+  },
+  "keywords": [
+    "bearblog",
+    "css",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC"
+}
